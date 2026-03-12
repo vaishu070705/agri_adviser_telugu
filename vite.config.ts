@@ -13,9 +13,9 @@ export default defineConfig(({ mode }) => ({
   },
 
   preview: {
-    host: "0.0.0.0",
-    allowedHosts: ["agri-adviser-telugu.onrender.com"]
-  },
+  host: "0.0.0.0",
+  allowedHosts: ["agri-adviser-telugu.onrender.com"]
+},
 
   plugins: [
     react(),
